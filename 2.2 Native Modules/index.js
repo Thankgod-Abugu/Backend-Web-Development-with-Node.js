@@ -1,4 +1,8 @@
-const fs = require('fs');
+// const fs = require('fs');
+// // line above uses CJS (by default)
+
+import fs from 'fs';
+// line above uses ESM, a better alternative to CJS
 
 // fs.writeFile('messages.txt', 'hello from nodeJS.', (err) => {
 //     if (err) throw err;
